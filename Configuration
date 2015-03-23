@@ -1,0 +1,9 @@
+==在导航中显示搜索框
+
+默认，搜索是显示在工具栏中的，而如果不让匿名用户编辑的话，那么匿名用户就无法使用搜索。
+
+在Localsetting.php中加入如下两行内容：
+
+$wgSearchPlacement['header'] = false;
+$wgSearchPlacement['nav'] = true;
+
